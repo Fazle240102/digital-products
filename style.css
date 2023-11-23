@@ -74,3 +74,57 @@
   margin-bottom: 15px;
   font-size: 18px;
 }
+
+/* about us related styles */
+
+.about-container {
+  display: flex;
+  gap: 250px;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row-reverse;
+  padding: 20px;
+}
+
+.about-title {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/* services related styles */
+
+.box {
+  width: 230px;
+  height: 280px;
+  box-shadow: 4px 4px 15px gray;
+  background-color: black;
+  text-align: center;
+  padding: 55px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  color: white;
+}
+
+.icon {
+  width: 70px;
+}
+
+.box-description {
+  margin-bottom: 10px;
+  padding: 5px;
+}
+.service-container {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  background-color: rgb(50, 48, 48);
+}
+
+.box-btn {
+  background-color: gray;
+}
+
+.box-title {
+  padding: 10px;
+}
