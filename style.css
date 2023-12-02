@@ -118,7 +118,8 @@
   display: flex;
   justify-content: space-around;
   padding: 20px;
-  background-color: rgb(50, 48, 48);
+  background-image: url("./images/background.png"),
+    linear-gradient(45deg, rgb(33, 31, 31), black);
 }
 
 .box-btn {
